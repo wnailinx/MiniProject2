@@ -1,0 +1,533 @@
+{
+  "split": "validation",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4"
+  },
+  "records": [
+    {
+      "method": "agreement",
+      "correct": 688,
+      "n": 798,
+      "accuracy": 86.2155388471178,
+      "fresh_process_predict_plus_score_seconds": 0.5814885999998296,
+      "checkpoint_bytes": 298,
+      "checkpoint_sha256": "14b8c8a503305031998aa91ba65cd11d04e33268a2fc953e29e8aa11cc75469b",
+      "prediction_file": "results\\validation-hard\\agreement-predictions.json",
+      "official_score_file": "results\\validation-hard\\agreement-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 245
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "fixed",
+      "correct": 624,
+      "n": 798,
+      "accuracy": 78.19548872180451,
+      "fresh_process_predict_plus_score_seconds": 0.4964276000000609,
+      "checkpoint_bytes": 282,
+      "checkpoint_sha256": "8d46d1a5bba58547212bf319694d24d9fa4e767d4cb2cdb4f7506ee797902bfd",
+      "prediction_file": "results\\validation-hard\\fixed-predictions.json",
+      "official_score_file": "results\\validation-hard\\fixed-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 195
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 429
+      }
+    },
+    {
+      "method": "group-max-bonus-0.05",
+      "correct": 738,
+      "n": 798,
+      "accuracy": 92.4812030075188,
+      "fresh_process_predict_plus_score_seconds": 0.7657492000003003,
+      "checkpoint_bytes": 14474,
+      "checkpoint_sha256": "df45ea38e6fc53be41e378c2d5e09102347adb7e0791fb4fea04c9821a382cc2",
+      "prediction_file": "results\\validation-hard\\group-max-bonus-0.05-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-max-bonus-0.05-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 295
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "group-max-bonus-0.10",
+      "correct": 739,
+      "n": 798,
+      "accuracy": 92.60651629072682,
+      "fresh_process_predict_plus_score_seconds": 0.6537742000000435,
+      "checkpoint_bytes": 14474,
+      "checkpoint_sha256": "036ca422e7201bf1ccf90e5c6c46d89a577d16c8d944f38f59cb18eef0841f4e",
+      "prediction_file": "results\\validation-hard\\group-max-bonus-0.10-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-max-bonus-0.10-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 296
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "group-max-bonus-0.20",
+      "correct": 734,
+      "n": 798,
+      "accuracy": 91.97994987468671,
+      "fresh_process_predict_plus_score_seconds": 0.6416895999996086,
+      "checkpoint_bytes": 14474,
+      "checkpoint_sha256": "8f04ad09d7d7af9175bdfff4ecb9c474a357b5272d3597d1b0cdd25a647e4030",
+      "prediction_file": "results\\validation-hard\\group-max-bonus-0.20-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-max-bonus-0.20-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 291
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "group-mean-bonus-0.00",
+      "correct": 730,
+      "n": 798,
+      "accuracy": 91.47869674185463,
+      "fresh_process_predict_plus_score_seconds": 0.6732418000001417,
+      "checkpoint_bytes": 14478,
+      "checkpoint_sha256": "01a3df67432e95d12f83d80807d1708d84f242b4a28e381027112c56d099b328",
+      "prediction_file": "results\\validation-hard\\group-mean-bonus-0.00-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-mean-bonus-0.00-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 287
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "group-mean-bonus-0.05",
+      "correct": 737,
+      "n": 798,
+      "accuracy": 92.35588972431077,
+      "fresh_process_predict_plus_score_seconds": 0.708802999999989,
+      "checkpoint_bytes": 14478,
+      "checkpoint_sha256": "04547ed8843f8caf800ba7f8eb00fda2464b383c08cdbeb9bd4b0408336dc56c",
+      "prediction_file": "results\\validation-hard\\group-mean-bonus-0.05-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-mean-bonus-0.05-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 294
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "group-mean-bonus-0.10",
+      "correct": 738,
+      "n": 798,
+      "accuracy": 92.4812030075188,
+      "fresh_process_predict_plus_score_seconds": 0.713348500000393,
+      "checkpoint_bytes": 14478,
+      "checkpoint_sha256": "88da549a3f0ec3679681a01b56083aa125111722ad82d195d7942321d83926a7",
+      "prediction_file": "results\\validation-hard\\group-mean-bonus-0.10-predictions.json",
+      "official_score_file": "results\\validation-hard\\group-mean-bonus-0.10-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 295
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pairwise-ridge-100",
+      "correct": 732,
+      "n": 798,
+      "accuracy": 91.72932330827068,
+      "fresh_process_predict_plus_score_seconds": 0.6518333999997594,
+      "checkpoint_bytes": 13968,
+      "checkpoint_sha256": "a55dfecf971174dcf311da0bf81921c728c052de815bf78747d7424291438be2",
+      "prediction_file": "results\\validation-hard\\pairwise-ridge-100-predictions.json",
+      "official_score_file": "results\\validation-hard\\pairwise-ridge-100-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 289
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pairwise-ridge-1000",
+      "correct": 739,
+      "n": 798,
+      "accuracy": 92.60651629072682,
+      "fresh_process_predict_plus_score_seconds": 0.6449235000000044,
+      "checkpoint_bytes": 13968,
+      "checkpoint_sha256": "e1c76c49875aa795c2736e3aafb65dc65c5020bf658b6750f251988b22d4074d",
+      "prediction_file": "results\\validation-hard\\pairwise-ridge-1000-predictions.json",
+      "official_score_file": "results\\validation-hard\\pairwise-ridge-1000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 296
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pairwise-ridge-10000",
+      "correct": 730,
+      "n": 798,
+      "accuracy": 91.47869674185463,
+      "fresh_process_predict_plus_score_seconds": 0.6306303000001208,
+      "checkpoint_bytes": 13968,
+      "checkpoint_sha256": "164b16ad10fabb8fe8b4ddcccd680206ae3519a8894832a36b8f6137f4c6bb55",
+      "prediction_file": "results\\validation-hard\\pairwise-ridge-10000-predictions.json",
+      "official_score_file": "results\\validation-hard\\pairwise-ridge-10000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 287
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pointwise-ridge-100",
+      "correct": 742,
+      "n": 798,
+      "accuracy": 92.98245614035088,
+      "fresh_process_predict_plus_score_seconds": 0.6223963000002186,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "609ca9452a9f37d5130e97de194075c755cb30d64a33c66e9803581b8dcef535",
+      "prediction_file": "results\\validation-hard\\pointwise-ridge-100-predictions.json",
+      "official_score_file": "results\\validation-hard\\pointwise-ridge-100-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 299
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pointwise-ridge-1000",
+      "correct": 734,
+      "n": 798,
+      "accuracy": 91.97994987468671,
+      "fresh_process_predict_plus_score_seconds": 0.6114972000000307,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "aaa45f0d45390804082069faa4c88a2c968e404eeebfd24d7a911e9ca826c75a",
+      "prediction_file": "results\\validation-hard\\pointwise-ridge-1000-predictions.json",
+      "official_score_file": "results\\validation-hard\\pointwise-ridge-1000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 291
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pointwise-ridge-10000",
+      "correct": 737,
+      "n": 798,
+      "accuracy": 92.35588972431077,
+      "fresh_process_predict_plus_score_seconds": 0.6297257000001082,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "bb3f488a2a469bc4371529ee0d02807cb91d4f39a1671785b0e7dde250c185c9",
+      "prediction_file": "results\\validation-hard\\pointwise-ridge-10000-predictions.json",
+      "official_score_file": "results\\validation-hard\\pointwise-ridge-10000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 294
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "relative-ridge-100",
+      "correct": 724,
+      "n": 798,
+      "accuracy": 90.72681704260651,
+      "fresh_process_predict_plus_score_seconds": 0.7140924999998788,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "0a2b3cdded2ebfaf24d6cf8c9c405e03ec36b3a69648ebe1ffd9b0eebca77fb0",
+      "prediction_file": "results\\validation-hard\\relative-ridge-100-predictions.json",
+      "official_score_file": "results\\validation-hard\\relative-ridge-100-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 283
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 441
+      }
+    },
+    {
+      "method": "relative-ridge-1000",
+      "correct": 721,
+      "n": 798,
+      "accuracy": 90.35087719298245,
+      "fresh_process_predict_plus_score_seconds": 0.7089670000000297,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "d982c79ed918c6e467b740f4d3947faa5c09ac7040bb90c75c017baa278918c8",
+      "prediction_file": "results\\validation-hard\\relative-ridge-1000-predictions.json",
+      "official_score_file": "results\\validation-hard\\relative-ridge-1000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 280
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 441
+      }
+    },
+    {
+      "method": "relative-ridge-10000",
+      "correct": 720,
+      "n": 798,
+      "accuracy": 90.22556390977444,
+      "fresh_process_predict_plus_score_seconds": 0.7513566000002356,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "7fa557e01ec2ecafa5135a468edf8b8ad08358d7aae09f11a53eaf61a95f5be4",
+      "prediction_file": "results\\validation-hard\\relative-ridge-10000-predictions.json",
+      "official_score_file": "results\\validation-hard\\relative-ridge-10000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 277
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    }
+  ],
+  "comparison": {
+    "best_pointwise": "pointwise-ridge-100",
+    "best_relative": "relative-ridge-100",
+    "relative_helped_count": 13,
+    "relative_hurt_count": 31,
+    "relative_helped_positions": [
+      90,
+      224,
+      248,
+      319,
+      325,
+      332,
+      391,
+      397,
+      513,
+      521,
+      540,
+      677,
+      733
+    ],
+    "relative_hurt_positions": [
+      48,
+      77,
+      81,
+      115,
+      166,
+      170,
+      188,
+      192,
+      199,
+      209,
+      210,
+      252,
+      286,
+      318,
+      330,
+      335,
+      371,
+      384,
+      385,
+      418,
+      431,
+      454,
+      461,
+      499,
+      555,
+      666,
+      668,
+      672,
+      726,
+      746,
+      792
+    ],
+    "examples": [
+      {
+        "category": "relative_helped",
+        "validation_position": 90,
+        "question": "Helga went shopping for a new pair of shoes. At the first store, she tried on 7 pairs of shoes. At the second store, she tried on 2 more pairs than at the first store. At the third store, she did not try on any shoes, but she did buy a scarf.  But at the fourth store, she tried on twice as many pairs of shoes as she did at all three other stores combined, before finally choosing a pair to buy.  What is the total number of pairs of shoes Helga tried on before buying her new shoes?",
+        "candidate_final_answers": [
+          "48",
+          "48",
+          "32",
+          "44"
+        ],
+        "reference_final_answer": "48",
+        "pointwise_choice": 2,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 224,
+        "question": "Caprice is taking piano lessons. Her mother pays the teacher $10 for every half-hour of teaching her daughter. If Caprice is taking one lesson per week, and the lesson lasts 1 hour, how much money would the teacher earn in 5 weeks?",
+        "candidate_final_answers": [
+          "100",
+          "150",
+          "100",
+          "100"
+        ],
+        "reference_final_answer": "100",
+        "pointwise_choice": 1,
+        "relative_choice": 2
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 248,
+        "question": "On Tuesday, Max's mom gave him $8 dollars for a hot dog at the Grand Boulevard park. On Wednesday, his mom gave him 5 times as much money as she gave him on Tuesday. On Thursday, his mom gave him $9 more in money than she gave him on Wednesday. How much more money did his mom give him on Thursday than she gave him on Tuesday?",
+        "candidate_final_answers": [
+          "41",
+          "4",
+          "41",
+          "42"
+        ],
+        "reference_final_answer": "41",
+        "pointwise_choice": 1,
+        "relative_choice": 0
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 319,
+        "question": "Javier is an Olympic javelin thrower.  In the last Olympics, he threw the javelin three times.  The first throw, he threw the javelin twice as far as he threw the javelin on his second throw, but only half as far as he threw it the third throw.  If the sum of all three throws was 1050 meters, then how far, in meters, did he throw the javelin on his first throw?",
+        "candidate_final_answers": [
+          "300",
+          "525/2",
+          "420",
+          "300"
+        ],
+        "reference_final_answer": "300",
+        "pointwise_choice": 2,
+        "relative_choice": 3
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 325,
+        "question": "John and Yasmin's dad is named Gabriel. If John has twice the number of children that her sister has and Gabriel has six grandkids, how many children does Yasmin have?",
+        "candidate_final_answers": [
+          "2",
+          "2",
+          "6",
+          "1"
+        ],
+        "reference_final_answer": "2",
+        "pointwise_choice": 3,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 48,
+        "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+        "candidate_final_answers": [
+          "100",
+          "80",
+          "40",
+          "100"
+        ],
+        "reference_final_answer": "40",
+        "pointwise_choice": 2,
+        "relative_choice": 0
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 77,
+        "question": "Tim hires two bodyguards.  They each charge $20 an hour.  He hires them for 8 hour per day.  How much does he pay them in a week if he hires them 7 days a week?",
+        "candidate_final_answers": [
+          "1120",
+          "1120",
+          "2240",
+          "1120"
+        ],
+        "reference_final_answer": "2240",
+        "pointwise_choice": 2,
+        "relative_choice": 0
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 81,
+        "question": "Tanika is selling boxes of crackers for her scout troop's fund-raiser. On Saturday, she sold 60 boxes. On Sunday, she sold 50% more than on Saturday. How many boxes did she sell, in total, over the two days?",
+        "candidate_final_answers": [
+          "90",
+          "90",
+          "90",
+          "150"
+        ],
+        "reference_final_answer": "150",
+        "pointwise_choice": 3,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 115,
+        "question": "My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?",
+        "candidate_final_answers": [
+          "434",
+          "406",
+          "406",
+          "586"
+        ],
+        "reference_final_answer": "586",
+        "pointwise_choice": 3,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 166,
+        "question": "Mr. Rainwater has some goats, 9 cows and some chickens. He has 4 times as many goats as cows and 2 times as many goats as chickens. How many chickens does he have?",
+        "candidate_final_answers": [
+          "2",
+          "18",
+          "4",
+          "2"
+        ],
+        "reference_final_answer": "18",
+        "pointwise_choice": 1,
+        "relative_choice": 0
+      }
+    ]
+  }
+}

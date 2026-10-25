@@ -1,0 +1,24 @@
+{
+  "training_split": "train",
+  "number_positive_negative_pairs": 8271,
+  "alphas": [
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "checkpoints": [
+    {
+      "path": "checkpoints-hard\\pairwise-ridge-100.npz",
+      "bytes": 13968
+    },
+    {
+      "path": "checkpoints-hard\\pairwise-ridge-1000.npz",
+      "bytes": 13968
+    },
+    {
+      "path": "checkpoints-hard\\pairwise-ridge-10000.npz",
+      "bytes": 13968
+    }
+  ],
+  "training_seconds": 1.5518434999999045
+}

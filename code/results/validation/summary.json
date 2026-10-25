@@ -1,0 +1,382 @@
+{
+  "split": "validation",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4"
+  },
+  "records": [
+    {
+      "method": "agreement",
+      "correct": 688,
+      "n": 798,
+      "accuracy": 86.2155388471178,
+      "fresh_process_predict_plus_score_seconds": 0.48191700000006676,
+      "checkpoint_bytes": 298,
+      "checkpoint_sha256": "14b8c8a503305031998aa91ba65cd11d04e33268a2fc953e29e8aa11cc75469b",
+      "prediction_file": "results\\validation\\agreement-predictions.json",
+      "official_score_file": "results\\validation\\agreement-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 245
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "fixed",
+      "correct": 624,
+      "n": 798,
+      "accuracy": 78.19548872180451,
+      "fresh_process_predict_plus_score_seconds": 0.4562439000001177,
+      "checkpoint_bytes": 282,
+      "checkpoint_sha256": "8d46d1a5bba58547212bf319694d24d9fa4e767d4cb2cdb4f7506ee797902bfd",
+      "prediction_file": "results\\validation\\fixed-predictions.json",
+      "official_score_file": "results\\validation\\fixed-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 195
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 429
+      }
+    },
+    {
+      "method": "pointwise-ridge-100",
+      "correct": 733,
+      "n": 798,
+      "accuracy": 91.8546365914787,
+      "fresh_process_predict_plus_score_seconds": 0.5977858000001106,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "39cd9c79a6c7855922746c7240720d696dd8c62f0b0b7d0f2b3435f5de01337c",
+      "prediction_file": "results\\validation\\pointwise-ridge-100-predictions.json",
+      "official_score_file": "results\\validation\\pointwise-ridge-100-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 290
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pointwise-ridge-1000",
+      "correct": 734,
+      "n": 798,
+      "accuracy": 91.97994987468671,
+      "fresh_process_predict_plus_score_seconds": 0.5825328000000809,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "4c138ba0905c50fe657ed7567b887b056e0f8c1179755f905a6b28700d696306",
+      "prediction_file": "results\\validation\\pointwise-ridge-1000-predictions.json",
+      "official_score_file": "results\\validation\\pointwise-ridge-1000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 291
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "pointwise-ridge-10000",
+      "correct": 729,
+      "n": 798,
+      "accuracy": 91.35338345864662,
+      "fresh_process_predict_plus_score_seconds": 0.5804946999996901,
+      "checkpoint_bytes": 13972,
+      "checkpoint_sha256": "f12f4c900e2930d2134693c7042cab2e5834405fa48bf6ef51dfb49bfdad4109",
+      "prediction_file": "results\\validation\\pointwise-ridge-10000-predictions.json",
+      "official_score_file": "results\\validation\\pointwise-ridge-10000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 286
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "relative-ridge-100",
+      "correct": 720,
+      "n": 798,
+      "accuracy": 90.22556390977444,
+      "fresh_process_predict_plus_score_seconds": 0.6842964000002212,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "80aeb19feab527a79d599541a52b6321e4cbee554055d94f3375a87bcb56d48d",
+      "prediction_file": "results\\validation\\relative-ridge-100-predictions.json",
+      "official_score_file": "results\\validation\\relative-ridge-100-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 277
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "relative-ridge-1000",
+      "correct": 714,
+      "n": 798,
+      "accuracy": 89.47368421052632,
+      "fresh_process_predict_plus_score_seconds": 0.6954259999997703,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "97a52e08f3111e4c5ddd38ffe8c6a5eddc508109b91282042f34ade3d724af25",
+      "prediction_file": "results\\validation\\relative-ridge-1000-predictions.json",
+      "official_score_file": "results\\validation\\relative-ridge-1000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 271
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    },
+    {
+      "method": "relative-ridge-10000",
+      "correct": 710,
+      "n": 798,
+      "accuracy": 88.97243107769424,
+      "fresh_process_predict_plus_score_seconds": 0.6943452000000434,
+      "checkpoint_bytes": 14112,
+      "checkpoint_sha256": "c3be6dc0bba03a2755d05e1db9de4247e0b9bb6c580f31b40d6e65c78eff293e",
+      "prediction_file": "results\\validation\\relative-ridge-10000-predictions.json",
+      "official_score_file": "results\\validation\\relative-ridge-10000-score.json",
+      "disagreement_group": {
+        "n": 355,
+        "correct": 267
+      },
+      "unanimous_or_unparsed_group": {
+        "n": 443,
+        "correct": 443
+      }
+    }
+  ],
+  "comparison": {
+    "best_pointwise": "pointwise-ridge-1000",
+    "best_relative": "relative-ridge-100",
+    "relative_helped_count": 25,
+    "relative_hurt_count": 39,
+    "relative_helped_positions": [
+      29,
+      31,
+      60,
+      90,
+      108,
+      148,
+      151,
+      194,
+      224,
+      248,
+      281,
+      309,
+      312,
+      319,
+      332,
+      397,
+      513,
+      539,
+      597,
+      644,
+      651,
+      677,
+      719,
+      760,
+      794
+    ],
+    "relative_hurt_positions": [
+      48,
+      72,
+      81,
+      97,
+      115,
+      137,
+      166,
+      185,
+      188,
+      192,
+      199,
+      203,
+      209,
+      219,
+      236,
+      240,
+      266,
+      318,
+      320,
+      328,
+      330,
+      335,
+      384,
+      385,
+      413,
+      418,
+      461,
+      478,
+      497,
+      550,
+      617,
+      637,
+      666,
+      668,
+      672,
+      711,
+      726,
+      746,
+      757
+    ],
+    "examples": [
+      {
+        "category": "relative_helped",
+        "validation_position": 29,
+        "question": "Megan bought 2 dozen eggs. As she was walking to her car, she dropped a tray of eggs. 3 eggs broke, and twice as many cracked. What is the difference between the eggs that are still in perfect condition and those that are cracked?",
+        "candidate_final_answers": [
+          "9",
+          "18",
+          "6",
+          null
+        ],
+        "reference_final_answer": "9",
+        "pointwise_choice": 2,
+        "relative_choice": 0
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 31,
+        "question": "Grace baked 4 whole pumpkin pies. She sold 1 whole pumpkin pie and gave 1 whole pumpkin pie to her friend. The remaining whole pumpkin pies were each sliced into 6 pieces. Her family ate 2/3 pieces. How many pieces of pumpkin pie were left?",
+        "candidate_final_answers": [
+          "6",
+          "4",
+          "2",
+          "4"
+        ],
+        "reference_final_answer": "4",
+        "pointwise_choice": 0,
+        "relative_choice": 3
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 60,
+        "question": "Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?",
+        "candidate_final_answers": [
+          "40",
+          "48",
+          "40",
+          "280"
+        ],
+        "reference_final_answer": "40",
+        "pointwise_choice": 1,
+        "relative_choice": 2
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 90,
+        "question": "Helga went shopping for a new pair of shoes. At the first store, she tried on 7 pairs of shoes. At the second store, she tried on 2 more pairs than at the first store. At the third store, she did not try on any shoes, but she did buy a scarf.  But at the fourth store, she tried on twice as many pairs of shoes as she did at all three other stores combined, before finally choosing a pair to buy.  What is the total number of pairs of shoes Helga tried on before buying her new shoes?",
+        "candidate_final_answers": [
+          "48",
+          "48",
+          "32",
+          "44"
+        ],
+        "reference_final_answer": "48",
+        "pointwise_choice": 2,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_helped",
+        "validation_position": 108,
+        "question": "Trisha just got a job offer for an hourly job that pays 15 dollars an hour, 40 hours per week. She has been told to estimate that 20 percent of her pay will be withheld to pay taxes, unemployment insurance, and social security. Assuming Trisha works 52 weeks in a year, what is her annual \"take-home\" pay?",
+        "candidate_final_answers": [
+          null,
+          "24960",
+          "480",
+          "24960"
+        ],
+        "reference_final_answer": "24960",
+        "pointwise_choice": 2,
+        "relative_choice": 3
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 48,
+        "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+        "candidate_final_answers": [
+          "100",
+          "80",
+          "40",
+          "100"
+        ],
+        "reference_final_answer": "40",
+        "pointwise_choice": 2,
+        "relative_choice": 0
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 72,
+        "question": "A lot of people have been sick at Gary's workplace, so he's been working a lot of extra shifts to fill in for people. As a result, he's earned some overtime (where every hour after 40 he earns 1.5 times his normal wage.) His paycheck (before taxes are taken out) came out to $696. If Gary normally earns $12 per hour, how many hours did he work that week?",
+        "candidate_final_answers": [
+          "52",
+          "236/5",
+          "184",
+          "4"
+        ],
+        "reference_final_answer": "52",
+        "pointwise_choice": 0,
+        "relative_choice": 2
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 81,
+        "question": "Tanika is selling boxes of crackers for her scout troop's fund-raiser. On Saturday, she sold 60 boxes. On Sunday, she sold 50% more than on Saturday. How many boxes did she sell, in total, over the two days?",
+        "candidate_final_answers": [
+          "90",
+          "90",
+          "90",
+          "150"
+        ],
+        "reference_final_answer": "150",
+        "pointwise_choice": 3,
+        "relative_choice": 1
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 97,
+        "question": "A football club has a balance of $100 million. The club then sells 2 of its players at $10 million each, and buys 4 more at $15 million each. How much money is left in the club register in millions of dollars?",
+        "candidate_final_answers": [
+          "20",
+          "60",
+          "20",
+          "20"
+        ],
+        "reference_final_answer": "60",
+        "pointwise_choice": 1,
+        "relative_choice": 2
+      },
+      {
+        "category": "relative_hurt",
+        "validation_position": 115,
+        "question": "My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?",
+        "candidate_final_answers": [
+          "434",
+          "406",
+          "406",
+          "586"
+        ],
+        "reference_final_answer": "586",
+        "pointwise_choice": 3,
+        "relative_choice": 1
+      }
+    ]
+  }
+}

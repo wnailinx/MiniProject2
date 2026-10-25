@@ -1,0 +1,62 @@
+{
+  "training_split": "train",
+  "n_questions": 4755,
+  "n_positive_candidates": 14353,
+  "numpy_version": "2.5.3",
+  "alphas": [
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "baselines": [
+    "checkpoints\\fixed.npz",
+    "checkpoints\\agreement.npz"
+  ],
+  "variants": [
+    {
+      "mode": "pointwise",
+      "dimensions": 1036,
+      "elapsed_seconds": 0.9537016999997832,
+      "models": [
+        {
+          "checkpoint": "checkpoints\\pointwise-ridge-100.npz",
+          "alpha": 100.0,
+          "bytes": 13972
+        },
+        {
+          "checkpoint": "checkpoints\\pointwise-ridge-1000.npz",
+          "alpha": 1000.0,
+          "bytes": 13972
+        },
+        {
+          "checkpoint": "checkpoints\\pointwise-ridge-10000.npz",
+          "alpha": 10000.0,
+          "bytes": 13972
+        }
+      ]
+    },
+    {
+      "mode": "relative",
+      "dimensions": 1048,
+      "elapsed_seconds": 1.5156941000000188,
+      "models": [
+        {
+          "checkpoint": "checkpoints\\relative-ridge-100.npz",
+          "alpha": 100.0,
+          "bytes": 14112
+        },
+        {
+          "checkpoint": "checkpoints\\relative-ridge-1000.npz",
+          "alpha": 1000.0,
+          "bytes": 14112
+        },
+        {
+          "checkpoint": "checkpoints\\relative-ridge-10000.npz",
+          "alpha": 10000.0,
+          "bytes": 14112
+        }
+      ]
+    }
+  ],
+  "total_elapsed_seconds": 2.944560200000069
+}
